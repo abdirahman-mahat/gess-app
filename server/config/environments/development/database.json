@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "@gess-app-qkgzv.mongodb.net",
+        "port": 27017,
+        "database": "server",
+        "username": "gess-admin",
+        "password": "gess",
+        "srv": true
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
